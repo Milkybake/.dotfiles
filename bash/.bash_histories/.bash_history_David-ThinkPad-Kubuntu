@@ -1,0 +1,7 @@
+la
+rm .bash_history
+la
+cd .bash_histories
+vim .bash_history_David-ThinkPad-Kubuntu 
+cd
+reload

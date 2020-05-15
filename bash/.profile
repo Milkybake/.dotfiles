@@ -1,6 +1,4 @@
 # ~/.profile: executed by the command interpreter for login shells.
-# This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
-# exists.
 # see /usr/share/doc/bash/examples/startup-files for examples.
 # the files are located in the bash-doc package.
 
@@ -8,11 +6,20 @@
 # for ssh logins, install and configure the libpam-umask package.
 #umask 022
 
+#Loads the correct bashrc for the relevant system:
 # if running bash
+
+#Save to appropriate bash history file on shell exit - must be run before bash
+#commands here
+export HISTFILE=/home/$USER/.bash_histories/.bash_history_$(hostname)
+
 if [ -n "$BASH_VERSION" ]; then
     # include .bashrc if it exists
-    if [ -f "$HOME/.bashrc" ]; then
-	. "$HOME/.bashrc"
+    if [ -f "$HOME/.bashrc_$(hostname)" ];
+    then
+      . "$HOME/.bashrc_$(hostname)"
+    else
+        echo "There is no .bashrc specific to this host, using default for host."
     fi
 fi
 
@@ -27,4 +34,4 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 # Run python config on startup
-export PYTHONSTARTUP=~/.pyrc
+export PYTHONSTARTUP=~/.pyrc:wq

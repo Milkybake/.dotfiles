@@ -2,6 +2,23 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+#Save to appropriate bash history file on shell exit - must be run before bash
+#commands here
+export HISTFILE=/home/$USER/.bash_histories/.bash_history_$(hostname)
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
+
+# Run python config on startup
+export PYTHONSTARTUP=~/.pyrc:wq
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;

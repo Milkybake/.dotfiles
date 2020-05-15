@@ -1194,3 +1194,122 @@ vim .bashrc
 reload
 vim .bashrc
 reload
+cd Documents/
+cd ..
+c d..
+cd ..
+vim .bashrc
+cd
+vim .bashrc
+vim .profile 
+vim .zshenv
+ls
+ls -a
+cd .zshrc
+ls
+la
+cd .oh-my-zsh/
+ls
+cd etc
+cd
+cd etc
+vim zshenv
+clear
+zsh
+exit
+ls
+zsh
+python3
+vim .bashrc
+python3
+ls
+zsh
+clear
+zsh
+clear
+zsh
+clear
+zsh
+ls
+zsh
+work
+ls
+exit
+ls
+ssh keygen
+ssh-keygen
+cd .ssh
+ls
+vim id_rsa.pub 
+ls
+rm id_rsa
+rm id_rsa.pub 
+ls
+cd ..
+ssh-keygen
+cd .ssh/
+ls
+vim id_rsa.pub 
+quit
+cd .ssh/
+ls
+vim id_rsa.pub
+ssh -X dc-bake1@cosmos2.damtp.cam.ac.uk
+work
+clear
+ssh dgb35@131.111.20.82
+ls
+vim .bash_aliases 
+Cosmos
+reload
+work
+ls
+vim WorkConnection
+gpc -c WorkConnection 
+sudo apt-get install gnupg
+gpc -c WorkConnection 
+gpg -c WorkConnection 
+ls
+vim WorkConnection
+vim WorkConnection.gpg
+rm WorkConnection
+ls
+work
+clear
+Cosmos
+Fawcett
+clear
+ls
+cd .bashrc
+vim .bashrc
+reload
+vim .bashrc
+reload
+vim .bashrc
+reload
+vim .bashrc
+clear
+reload
+vim .bashrc
+reload
+zsh
+vim .bashrc
+reload
+vim .bashrc
+reload
+vim .bashrc
+reload
+vim .bashrc
+reload
+doc
+vim .bashrc
+cd ..
+vim .bashrc
+zsh
+reload
+zsh
+reload
+Python3
+python3
+vim .pyrc
+reload

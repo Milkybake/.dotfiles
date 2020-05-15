@@ -1,6 +1,5 @@
 #Aliases for my bash terminal
 
-alias work='ssh -X dgb35@psamathe.damtp.cam.ac.uk'
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
@@ -45,3 +44,8 @@ alias paths='echo -e ${PATH//:/\\n}'
 # Miscellaneous
 alias quit="exit"
 alias speedtest="wget -O /dev/null http://speed.transip.nl/100mb.bin"
+
+#Remote Connections
+alias work='ssh -X dgb35@psamathe.damtp.cam.ac.uk'
+alias Fawcett="ssh dgb35@131.111.20.82"
+alias Cosmos="ssh -X dc-bake1@cosmos2.damtp.cam.ac.uk"

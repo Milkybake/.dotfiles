@@ -1,6 +1,5 @@
 #Aliases for my bash terminal
 
-
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
@@ -15,27 +14,27 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias g="git"
 alias scratch='cd /nfs/st01/hpc-gr-epss/dgb35'
+alias bashrc='vim ~/.bashrcs/.bashrc_$(hostname)'
+alias bash_aliases='vim ~/.bash_aliases/.bash_aliases_$(hostname)'
 
-#SOME BELOW ALREADY IN BASHRC NEED TO SORT
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
+
 # List all files colorized in long format
 alias l="ls -lF ${colorflag}"
-
 # List all files colorized in long format, excluding . and ..
 alias la="ls -lAF ${colorflag}"
-
 # List only directories
 alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
 
-# IP addresses
-alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
-alias localip="ipconfig getifaddr en0"
-alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
-
-# Lock the screen (when going AFK)
-alias afk="systemctl suspend"
-
 # Reload the shell (i.e. invoke as a login shell)
-alias reload="exec ${SHELL} -l"
+alias reload="exec bash"
 
 # List declared aliases, functions, paths
 alias aliases="alias | sed 's/=.*//'"
@@ -46,13 +45,12 @@ alias paths='echo -e ${PATH//:/\\n}'
 alias quit="exit"
 alias speedtest="wget -O /dev/null http://speed.transip.nl/100mb.bin"
 
-#Remote Connections
-alias work='ssh -X dgb35@psamathe.damtp.cam.ac.uk'
-alias Fawcett="ssh dgb35@131.111.20.82"
-alias Cosmos="ssh -X dc-bake1@cosmos2.damtp.cam.ac.uk"
-
 #Fawcett Job Submissions
 alias JobSubmit='sbatch /home/dgb35/Jobscript'
 alias JobEdit='gedit /home/dgb35/Jobscript'
 alias JobRun='srun --pty -p cosmosx -n 8 --time=02:00:00 bash'
+
+# Add an "alert" alias for long running commands.  Use like so:
+#   sleep 10; alert
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 

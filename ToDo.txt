@@ -15,3 +15,7 @@
 11) Sort out bash_prompts scripts
 12) Look into prompt line for bash 
 13)Install file: e.g. sudo apt-get install exuberant-ctags for ctags.
+14) Work out how to add font info to the .dotfiles pack.
+15) Work out how to get vim plugins on .dotfiles - I guess they'll be done
+    automatically but need install script to symlink them I guess. Install
+    script will need symlink install early on?

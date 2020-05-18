@@ -1,0 +1,17 @@
+#A file with things to do - not in any specific order.
+
+1) Add install.sh script for dotfiles
+2) Add git status support to bash
+3) Look into zsh themes such as Powerline10
+4) Work out what to do with .profile 
+5) Bash functions files
+6) Add gitignore? Add README
+7) Sort out bash_logouts
+8) Change file structure so just have hostname for e.g. .bash_aliases in the
+   folder
+9) Eventually add in .bash config sourcing into bash_profile to reduce bash
+   size/improve cohesion
+10) sort out annoying colouring issue on bash for Thinkpad on vim
+11) Sort out bash_prompts scripts
+12) Look into prompt line for bash 
+13)Install file: e.g. sudo apt-get install exuberant-ctags for ctags.

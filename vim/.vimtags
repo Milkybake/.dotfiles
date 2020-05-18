@@ -1,0 +1,37 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+<C-l>	/home/david/.vimrc	/^  inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u$/;"	m	language:Vim
+<C-S-p>	/home/david/.vimrc	/^	map <C-S-p> :NERDTreeToggle<CR>$/;"	m	language:Vim
+<F2>	/home/david/.vimrc	/^	imap <F2> <C-O>:set invpaste paste?<CR>$/;"	m	language:Vim
+<F2>	/home/david/.vimrc	/^	nnoremap <F2> :set invpaste paste?<CR>$/;"	m	language:Vim
+<S-h>	/home/david/.vimrc	/^nnoremap <silent> <S-h> :let @\/="" <return><esc>$/;"	m	language:Vim
+<Space>	/home/david/.vimrc	/^	nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\\<Space>")<CR>$/;"	m	language:Vim
+<Space>	/home/david/.vimrc	/^	vnoremap <Space> zf$/;"	m	language:Vim
+<space>	/home/david/.vimrc	/^  nnoremap <space> <Nop>$/;"	m	language:Vim
+g:airline#extensions#tabline#enabled	/home/david/.vimrc	/^  let g:airline#extensions#tabline#enabled = 1$/;"	v	language:Vim
+g:airline#extensions#tabline#formatter	/home/david/.vimrc	/^  let g:airline#extensions#tabline#formatter = 'default'$/;"	v	language:Vim
+g:airline#extensions#tabline#left_alt_sep	/home/david/.vimrc	/^  let g:airline#extensions#tabline#left_alt_sep = '|'$/;"	v	language:Vim
+g:airline#extensions#tabline#left_sep	/home/david/.vimrc	/^  let g:airline#extensions#tabline#left_sep = ' '$/;"	v	language:Vim
+g:airline_powerline_fonts	/home/david/.vimrc	/^  let g:airline_powerline_fonts = 1$/;"	v	language:Vim
+g:airline_solarized_bg	/home/david/.vimrc	/^  let g:airline_solarized_bg='dark'$/;"	v	language:Vim
+g:airline_statusline_ontop	/home/david/.vimrc	/^  let g:airline_statusline_ontop=1$/;"	v	language:Vim
+g:airline_theme	/home/david/.vimrc	/^  let g:airline_theme='solarized'$/;"	v	language:Vim
+g:airline_whitespace	/home/david/.vimrc	/^  let g:airline_whitespace=1$/;"	v	language:Vim
+g:gruvbox_contrast_dark	/home/david/.vimrc	/^	let g:gruvbox_contrast_dark= 'hard'$/;"	v	language:Vim
+g:gruvbox_italic	/home/david/.vimrc	/^	let g:gruvbox_italic = '1'$/;"	v	language:Vim
+g:gruvbox_italicize_comments	/home/david/.vimrc	/^	let g:gruvbox_italicize_comments = '1'$/;"	v	language:Vim
+g:gruvbox_vert_split	/home/david/.vimrc	/^	let g:gruvbox_vert_split = 'bg0'$/;"	v	language:Vim
+g:syntastic_always_populate_loc_list	/home/david/.vimrc	/^  let g:syntastic_always_populate_loc_list = 1$/;"	v	language:Vim
+g:syntastic_auto_loc_list	/home/david/.vimrc	/^  let g:syntastic_auto_loc_list = 1$/;"	v	language:Vim
+g:syntastic_check_on_open	/home/david/.vimrc	/^  let g:syntastic_check_on_open = 1$/;"	v	language:Vim
+g:syntastic_check_on_wq	/home/david/.vimrc	/^  let g:syntastic_check_on_wq = 0$/;"	v	language:Vim
+g:tex_conceal	/home/david/.vimrc	/^  let g:tex_conceal='abdmg'$/;"	v	language:Vim
+g:tex_flavor	/home/david/.vimrc	/^  let g:tex_flavor='latex'$/;"	v	language:Vim
+g:UltiSnipsEditSplit	/home/david/.vimrc	/^  let g:UltiSnipsEditSplit="vertical"$/;"	v	language:Vim
+g:UltiSnipsExpandTrigger	/home/david/.vimrc	/^  let g:UltiSnipsExpandTrigger="<tab>"$/;"	v	language:Vim
+g:UltiSnipsJumpBackwardTrigger	/home/david/.vimrc	/^  let g:UltiSnipsJumpBackwardTrigger="<s-tab>"$/;"	v	language:Vim
+g:UltiSnipsJumpForwardTrigger	/home/david/.vimrc	/^  let g:UltiSnipsJumpForwardTrigger="<tab>"$/;"	v	language:Vim
+g:UltiSnipsSnippetsDir	/home/david/.vimrc	/^  let g:UltiSnipsSnippetsDir = $HOME.'\/.vim\/UltiSnips'$/;"	v	language:Vim
+g:vimtex_quickfix_mode	/home/david/.vimrc	/^  let g:vimtex_quickfix_mode=0$/;"	v	language:Vim
+g:vimtex_view_method	/home/david/.vimrc	/^  let g:vimtex_view_method='zathura'$/;"	v	language:Vim
+mapleader	/home/david/.vimrc	/^  let mapleader="\\<space>"$/;"	v	language:Vim
+maplocalleader	/home/david/.vimrc	/^  let maplocalleader="\\<space>"$/;"	v	language:Vim

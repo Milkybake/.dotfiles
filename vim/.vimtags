@@ -7,6 +7,36 @@
 <Space>	/home/david/.vimrc	/^	nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\\<Space>")<CR>$/;"	m	language:Vim
 <Space>	/home/david/.vimrc	/^	vnoremap <Space> zf$/;"	m	language:Vim
 <space>	/home/david/.vimrc	/^  nnoremap <space> <Nop>$/;"	m	language:Vim
+AntiSigmaBsplineCalibration	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    AntiSigmaBsplineCalibration=AntiSigmaLinearGen(xlin,ylin,h,MinK,MaxK,R)$/;"	v	language:Python
+AntiSigmaBsplineCalibration	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    AntiSigmaBsplineCalibration=AntiSigmaLinearGen(xNlin,yNlin,h,MinK,MaxK,R)$/;"	v	language:Python
+AntiSigmaBsplineUnanchored	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    AntiSigmaBsplineUnanchored=AntiSigmaLinearGen(xNorm,yNorm,h,MinK,MaxK,R)$/;"	v	language:Python
+AntiSigmaBsplineUnanchored	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    AntiSigmaBsplineUnanchored=AntiSigmaLinearGen(xNorm,yNorm,h,MinK,MaxK,R)$/;"	v	language:Python
+AntiSigmaLinearGen	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^def AntiSigmaLinearGen(x,y,h,MinK,MaxK,R):$/;"	f	language:Python
+AntiW	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^def AntiW(x,a,b):$/;"	f	language:Python
+ax1	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^ax1=fig.add_axes([0.11,0.11,0.84,0.84])$/;"	v	language:Python
+BsplineCalibration	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    BsplineCalibration=AntiSigmaBsplineCalibration\/AntiSigmaBsplineUnanchored$/;"	v	language:Python
+BsplineCalibration	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    BsplineCalibration=AntiSigmaBsplineCalibration\/AntiSigmaBsplineUnanchored$/;"	v	language:Python
+Buffer	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^Buffer = 3$/;"	v	language:Python
+CambPointDensity	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^CambPointDensity=countNlin\/abs(np.log(xNlin[countNlin]-xNlin[0]))$/;"	v	language:Python
+camb_path	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^camb_path = os.path.realpath(os.path.join(os.getcwd(),'..'))$/;"	v	language:Python
+converter	/home/david/LanguageLearning/German/raw_format_convert.py	/^converter=np.arange(15001)$/;"	v	language:Python
+converter	/home/david/LanguageLearning/MassTranslate/raw_format_convert.py	/^converter=np.arange(5000)$/;"	v	language:Python
+converter	/home/david/LanguageLearning/raw_format_convert.py	/^converter=np.arange(5000)$/;"	v	language:Python
+count	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^count=0$/;"	v	language:Python
+count	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^count=0$/;"	v	language:Python
+CountLin	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^CountLin=count$/;"	v	language:Python
+CountLin	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^CountLin=count$/;"	v	language:Python
+countNlin	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^countNlin=0$/;"	v	language:Python
+countSim	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^countSim=0$/;"	v	language:Python
+EnglishWord	/home/david/LanguageLearning/German/raw_format_convert.py	/^EnglishWord=["" for x in range(15000)]$/;"	v	language:Python
+EnglishWord	/home/david/LanguageLearning/raw_format_convert.py	/^EnglishWord=["" for x in range(5000)]$/;"	v	language:Python
+EnglishWord_es	/home/david/LanguageLearning/MassTranslate/raw_format_convert.py	/^EnglishWord_es=["" for x in range(15000)]$/;"	v	language:Python
+EnglishWord_fr	/home/david/LanguageLearning/MassTranslate/raw_format_convert.py	/^EnglishWord_fr=["" for x in range(15000)]$/;"	v	language:Python
+EnglishWord_pt	/home/david/LanguageLearning/MassTranslate/raw_format_convert.py	/^EnglishWord_pt=["" for x in range(15000)]$/;"	v	language:Python
+f	/home/david/UsefulOutputConversionScripts/export_lambda.py	/^f = open(filename, "rb")$/;"	v	language:Python
+fig	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^fig = plt.figure(1)$/;"	v	language:Python
+filename	/home/david/UsefulOutputConversionScripts/export_lambda.py	/^filename = sys.argv[1]$/;"	v	language:Python
+FrenchWord	/home/david/LanguageLearning/MassTranslate/raw_format_convert.py	/^FrenchWord=np.genfromtxt('1_50000_raw_fr.txt', dtype=str, delimiter=' ', usecols=UsefulColumns)$/;"	v	language:Python
 g:airline#extensions#tabline#enabled	/home/david/.vimrc	/^  let g:airline#extensions#tabline#enabled = 1$/;"	v	language:Vim
 g:airline#extensions#tabline#formatter	/home/david/.vimrc	/^  let g:airline#extensions#tabline#formatter = 'default'$/;"	v	language:Vim
 g:airline#extensions#tabline#left_alt_sep	/home/david/.vimrc	/^  let g:airline#extensions#tabline#left_alt_sep = '|'$/;"	v	language:Vim
@@ -33,5 +63,166 @@ g:UltiSnipsJumpForwardTrigger	/home/david/.vimrc	/^  let g:UltiSnipsJumpForwardT
 g:UltiSnipsSnippetsDir	/home/david/.vimrc	/^  let g:UltiSnipsSnippetsDir = $HOME.'\/.vim\/UltiSnips'$/;"	v	language:Vim
 g:vimtex_quickfix_mode	/home/david/.vimrc	/^  let g:vimtex_quickfix_mode=0$/;"	v	language:Vim
 g:vimtex_view_method	/home/david/.vimrc	/^  let g:vimtex_view_method='zathura'$/;"	v	language:Vim
+GermanWord	/home/david/LanguageLearning/German/raw_format_convert.py	/^GermanWord=np.genfromtxt('1_15000_raw.dat', dtype=str, delimiter=' ', usecols=0)$/;"	v	language:Python
+GermanWord	/home/david/LanguageLearning/raw_format_convert.py	/^GermanWord=np.genfromtxt('1_5000_raw.dat', dtype=str, delimiter=' ', usecols=UsefulColumns)$/;"	v	language:Python
+GermanWordFormat	/home/david/LanguageLearning/German/raw_format_convert.py	/^GermanWordFormat=np.genfromtxt('de_to_en_1_15000.txt', dtype=str, delimiter='\\n')$/;"	v	language:Python
+grid	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^    grid = 4.0$/;"	v	language:Python
+grid	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^    grid = 8.0$/;"	v	language:Python
+h	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^h=h0File$/;"	v	language:Python
+h	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^h=0.69$/;"	v	language:Python
+h0File	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    h0File=float(lines[44].split()[1])$/;"	v	language:Python
+index	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^index = np.where(MEM < mem_limit)$/;"	v	language:Python
+indice	/home/david/Documents/NonLinear/PlotPowerSpec.py	/^indice = np.nonzero(y3)$/;"	v	language:Python
+k	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    k=np.array([float(line.split()[0]) for line in lines])$/;"	v	language:Python
+KmaxSimPower	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    KmaxSimPower=k[-1]$/;"	v	language:Python
+LagrangeInterpPower	/home/david/Documents/NonLinear/PlotPowerSpec.py	/^LagrangeInterpPower=sp.lagrange(x3[indice[0]], y3[indice[0]])$/;"	v	language:Python
+LinearIterator	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^LinearIterator=np.arange(np.size(xNlin))$/;"	v	language:Python
+linerror	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^linerror=np.zeros(10000)$/;"	v	language:Python
+lines	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    lines = f.readlines()$/;"	v	language:Python
+lines	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    lines = f.readlines()$/;"	v	language:Python
+lines	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    lines = f.readlines()$/;"	v	language:Python
+lines	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    lines = f.readlines()$/;"	v	language:Python
+lines	/home/david/Documents/NonLinear/PlotPowerSpec.py	/^    lines = f.readlines()$/;"	v	language:Python
+lines	/home/david/Documents/NonLinear/PlotPowerSpec.py	/^    lines = f.readlines()$/;"	v	language:Python
+lines	/home/david/Documents/NonLinear/PlotPowerSpec.py	/^    lines = f.readlines()$/;"	v	language:Python
+lines	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    lines = f.readlines()$/;"	v	language:Python
+lines	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    lines = f.readlines()$/;"	v	language:Python
+lines	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    lines = f.readlines()$/;"	v	language:Python
+lines	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    lines = f.readlines()$/;"	v	language:Python
+lines	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    lines = f.readlines()$/;"	v	language:Python
+lines	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    lines = f.readlines()$/;"	v	language:Python
+lines	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    lines = f.readlines()$/;"	v	language:Python
+lines	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    lines = f.readlines()$/;"	v	language:Python
+LinOutputPointSpacing	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^LinOutputPointSpacing=math.floor(countNlin\/NumberLinPointsToOutput)$/;"	v	language:Python
+LinScale	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^LinScale=(sigmaphys\/float(s8))**2$/;"	v	language:Python
 mapleader	/home/david/.vimrc	/^  let mapleader="\\<space>"$/;"	v	language:Vim
 maplocalleader	/home/david/.vimrc	/^  let maplocalleader="\\<space>"$/;"	v	language:Vim
+MaxK	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    MaxK=x[-1]$/;"	v	language:Python
+MaxK	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    MaxK=x[-1]$/;"	v	language:Python
+maxproc	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^maxproc = 256       # The largest number of processors to consider$/;"	v	language:Python
+MEM	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^MEM = np.zeros(len(nproc))$/;"	v	language:Python
+MEMORY_MODE	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^MEMORY_MODE = 1$/;"	v	language:Python
+MEM_2LPT	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^MEM_2LPT = np.zeros(len(nproc))$/;"	v	language:Python
+MEM_DENS	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^MEM_DENS = np.zeros(len(nproc))$/;"	v	language:Python
+MEM_DISP	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^MEM_DISP = np.zeros(len(nproc))$/;"	v	language:Python
+MEM_INIT	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^MEM_INIT = np.zeros(len(nproc))$/;"	v	language:Python
+mem_limit	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^mem_limit = 7.29       # The maximum amount of memory available per processor$/;"	v	language:Python
+MEM_MOVE	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^MEM_MOVE = np.zeros(len(nproc))$/;"	v	language:Python
+MEM_NBODY	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^MEM_NBODY = np.zeros(len(nproc))$/;"	v	language:Python
+MinK	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^        MinK=xraw[i+1] #Selects first K with error not more than 10% - lower is harder$/;"	v	language:Python
+minproc	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^minproc = 1         # The smallest number of processors to consider$/;"	v	language:Python
+NLinScale	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^NLinScale=(sigmaphys\/float(s8))**2 #Linear by definition$/;"	v	language:Python
+Nmesh	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^Nmesh = 2048.0$/;"	v	language:Python
+NonLinearRawFile	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^NonLinearRawFile="powerspec_LPicolaOutput_Bspline.txt" #Variable format in name$/;"	v	language:Python
+nproc	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^nproc = np.linspace(minproc,maxproc,maxproc-minproc+1)$/;"	v	language:Python
+Nsample	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^Nsample = 2048.0$/;"	v	language:Python
+NumberLinPointsToOutput	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^NumberLinPointsToOutput=SimPointDensity*abs(np.log((xNlin[countNlin]-xNlin[0])))$/;"	v	language:Python
+ombh2File	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    ombh2File=float(lines[42].split()[1])$/;"	v	language:Python
+omch2File	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    omch2File=float(lines[41].split()[1])$/;"	v	language:Python
+omkFile	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    omkFile=1-omlamFile-omch2File #CAMB uses k, GADGET uses Lambda$/;"	v	language:Python
+omlamFile	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    omlamFile=float(lines[43].split()[1])$/;"	v	language:Python
+ParameterFileSim	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^ParameterFileSim="run_parameters.dat" #Parameter file for the simulation: should be consistent with GADGET params$/;"	v	language:Python
+pars	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^pars = camb.CAMBparams()$/;"	v	language:Python
+part	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^    part = 4.0$/;"	v	language:Python
+part	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^    part = 8.0$/;"	v	language:Python
+partfull	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^    partfull = 12.0*part $/;"	v	language:Python
+partfull	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^    partfull = 12.0*part+8.0$/;"	v	language:Python
+PARTICLE_ID	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^PARTICLE_ID = 0$/;"	v	language:Python
+PortugueseWord	/home/david/LanguageLearning/MassTranslate/raw_format_convert.py	/^PortugueseWord=np.genfromtxt('1_50000_raw_pt.txt', dtype=str, delimiter=' ', usecols=UsefulColumns)$/;"	v	language:Python
+Powercombine	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^Powercombine=interp1d(xfinal,yfinal)$/;"	v	language:Python
+PowercombineErr	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^PowercombineErr=interp1d(xfinal,yfinalerr)$/;"	v	language:Python
+PrimIndexFile	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    PrimIndexFile=float(lines[46].split()[1])$/;"	v	language:Python
+Pronounce	/home/david/LanguageLearning/German/raw_format_convert.py	/^Pronounce=["" for x in range(15000)]$/;"	v	language:Python
+Pronounce	/home/david/LanguageLearning/raw_format_convert.py	/^Pronounce=["" for x in range(5000)]$/;"	v	language:Python
+QuadNormGen	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^def QuadNormGen(x,y,h,calx,caly,MinK,MaxK,R):$/;"	f	language:Python
+R	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^        R=2*np.pi*pow(Rk,-1) #Selects "linear" point to 0.1%$/;"	v	language:Python
+results	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^results = camb.get_results(pars)$/;"	v	language:Python
+results	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^results = camb.get_results(pars)$/;"	v	language:Python
+Rk	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^        Rk=xlin[i+1]$/;"	v	language:Python
+s8	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^s8 = results.get_sigma8_0()$/;"	v	language:Python
+s8NL	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^s8NL = results.get_sigma8_0()$/;"	v	language:Python
+Scaling	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^Scaling=yNorm[100]\/y[100] #100 is arbitrary$/;"	v	language:Python
+Sigma8File	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    Sigma8File=float(lines[45].split()[1])$/;"	v	language:Python
+sigmaphys	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^sigmaphys=0.8159$/;"	v	language:Python
+sigmaphys	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^sigmaphys=0.8159$/;"	v	language:Python
+SimPointDensity	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^SimPointDensity=countSim\/abs(np.log((xnew[-1]-xnew[0])))$/;"	v	language:Python
+SINGLE_PRECISION	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^SINGLE_PRECISION = 0$/;"	v	language:Python
+size	/home/david/UsefulOutputConversionScripts/export_lambda.py	/^size = int(sys.argv[2])$/;"	v	language:Python
+SpanishWord	/home/david/LanguageLearning/MassTranslate/raw_format_convert.py	/^SpanishWord=np.genfromtxt('1_50000_raw_es.txt', dtype=str, delimiter=' ', usecols=UsefulColumns)$/;"	v	language:Python
+TranslatedObject	/home/david/LanguageLearning/MassTranslate/raw_format_convert.py	/^        TranslatedObject=translator.translate(FrenchWord[i+5102], src='fr', dest='en')$/;"	v	language:Python
+TranslatedObject	/home/david/LanguageLearning/MassTranslate/raw_format_convert.py	/^        TranslatedObject=translator.translate(PortugueseWord[i], src='pt', dest='en')$/;"	v	language:Python
+TranslatedObject	/home/david/LanguageLearning/MassTranslate/raw_format_convert.py	/^        TranslatedObject=translator.translate(SpanishWord[i], src='es', dest='en')$/;"	v	language:Python
+TranslatedObject	/home/david/LanguageLearning/raw_format_convert.py	/^        TranslatedObject=translator.translate(GermanWord[i], src='de', dest='en')$/;"	v	language:Python
+translator	/home/david/LanguageLearning/German/raw_format_convert.py	/^translator=Translator()$/;"	v	language:Python
+translator	/home/david/LanguageLearning/MassTranslate/raw_format_convert.py	/^translator=Translator()$/;"	v	language:Python
+translator	/home/david/LanguageLearning/raw_format_convert.py	/^translator=Translator()$/;"	v	language:Python
+UsefulColumns	/home/david/LanguageLearning/German/raw_format_convert.py	/^UsefulColumns=np.arange(1,2*114999,2,dtype=int)$/;"	v	language:Python
+UsefulColumns	/home/david/LanguageLearning/MassTranslate/raw_format_convert.py	/^UsefulColumns=np.arange(0,15000,2,dtype=int)$/;"	v	language:Python
+UsefulColumns	/home/david/LanguageLearning/raw_format_convert.py	/^UsefulColumns=np.arange(1,2*5000,2,dtype=int)$/;"	v	language:Python
+x	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    x = np.array([float(line.split()[0]) for line in lines])$/;"	v	language:Python
+x	/home/david/UsefulOutputConversionScripts/export_lambda.py	/^x = np.fromfile(f, np.double)$/;"	v	language:Python
+x	/home/david/UsefulOutputConversionScripts/export_lambda.py	/^x = x.reshape(size*size)$/;"	v	language:Python
+x	/home/david/UsefulOutputConversionScripts/export_lambda.py	/^x = x.reshape(size,size)$/;"	v	language:Python
+x1	/home/david/Documents/NonLinear/PlotPowerSpec.py	/^    x1 = np.array([float(line.split()[0]) for line in lines])$/;"	v	language:Python
+x1	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    x1 = np.array([float(line.split()[0]) for line in lines])$/;"	v	language:Python
+x2	/home/david/Documents/NonLinear/PlotPowerSpec.py	/^    x2 = np.array([float(line.split()[0]) for line in lines])$/;"	v	language:Python
+x2	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    x2 = np.array([float(line.split()[0]) for line in lines])$/;"	v	language:Python
+x3	/home/david/Documents/NonLinear/PlotPowerSpec.py	/^    x3 = np.array([float(line.split()[0]) for line in lines])$/;"	v	language:Python
+x3	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    x3 = np.array([float(line.split()[0]) for line in lines])$/;"	v	language:Python
+x4	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    x4 = np.array([float(line.split()[0]) for line in lines])$/;"	v	language:Python
+x5	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    x5 = np.array([float(line.split()[0]) for line in lines])$/;"	v	language:Python
+x6	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    x6 = np.array([float(line.split()[0]) for line in lines])$/;"	v	language:Python
+x7	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    x7 = np.array([float(line.split()[0]) for line in lines])$/;"	v	language:Python
+xfinal	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^        xfinal=xfinal2$/;"	v	language:Python
+xfinal	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^        xfinal=xfinal2$/;"	v	language:Python
+xfinal	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^xfinal=np.array([])$/;"	v	language:Python
+xfinal2	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^        xfinal2=np.append(xfinal,xnew[i])$/;"	v	language:Python
+xfinal2	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^        xfinal2=np.append(xfinal,xNlin[i])$/;"	v	language:Python
+XfinalOut	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^XfinalOut=np.logspace(np.log10(xfinal[0]),np.log10(xfinal[-1]),num=np.size(xfinal))$/;"	v	language:Python
+xlin	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^xlin =kh*h$/;"	v	language:Python
+xnew	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^        xnew=xnew2$/;"	v	language:Python
+xnew	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^xnew=np.array(xnew)$/;"	v	language:Python
+xnew	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^xnew=np.array([])$/;"	v	language:Python
+xnew2	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^        xnew2=np.append(xnew,xraw[i]) #Pulling out data with less than 10% error$/;"	v	language:Python
+xNlin	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^xNlin =khNL*h$/;"	v	language:Python
+xNlin	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    xNlin = np.array([float(line.split()[0]) for line in lines])$/;"	v	language:Python
+xraw	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    xraw = np.array([float(line.split()[0]) for line in lines])$/;"	v	language:Python
+y	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    y = np.array([float(line.split()[1]) for line in lines])$/;"	v	language:Python
+y1	/home/david/Documents/NonLinear/PlotPowerSpec.py	/^    y1 = np.array([float(line.split()[1]) for line in lines])$/;"	v	language:Python
+y1	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    y1 = np.array([float(line.split()[3]) for line in lines])$/;"	v	language:Python
+y2	/home/david/Documents/NonLinear/PlotPowerSpec.py	/^    y2 = np.array([float(line.split()[1]) for line in lines])$/;"	v	language:Python
+y2	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    y2 = np.array([float(line.split()[3]) for line in lines])$/;"	v	language:Python
+y3	/home/david/Documents/NonLinear/PlotPowerSpec.py	/^    y3 = np.array([float(line.split()[1]) for line in lines])$/;"	v	language:Python
+y3	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    y3 = np.array([float(line.split()[3]) for line in lines])$/;"	v	language:Python
+y4	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    y4 = np.array([float(line.split()[3]) for line in lines])$/;"	v	language:Python
+y5	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    y5 = np.array([float(line.split()[3]) for line in lines])$/;"	v	language:Python
+y6	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    y6 = np.array([float(line.split()[3]) for line in lines])$/;"	v	language:Python
+y7	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    y7 = np.array([float(line.split()[3]) for line in lines])$/;"	v	language:Python
+yerr	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    yerr = np.array([float(line.split()[2]) for line in lines])$/;"	v	language:Python
+yfinal	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^        yfinal=yfinal2$/;"	v	language:Python
+yfinal	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^        yfinal=yfinal2$/;"	v	language:Python
+yfinal	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^yfinal=np.array([])$/;"	v	language:Python
+yfinal2	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^        yfinal2=np.append(yfinal,ynew[i])$/;"	v	language:Python
+yfinal2	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^        yfinal2=np.append(yfinal,yNlin[i])$/;"	v	language:Python
+yfinalerr	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^        yfinalerr=yfinalerr2$/;"	v	language:Python
+yfinalerr	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^        yfinalerr=yfinalerr2$/;"	v	language:Python
+yfinalerr	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^yfinalerr=np.array([])$/;"	v	language:Python
+yfinalerr2	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^        yfinalerr2=np.append(yfinalerr,linerror[count]*10) #Arbitrary factor of 10 to aid in Bspline fit$/;"	v	language:Python
+yfinalerr2	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^        yfinalerr2=np.append(yfinalerr,ynewerr[i])$/;"	v	language:Python
+ylin	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^ylin = pk[0]$/;"	v	language:Python
+ylin	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^ylin=ylin*LinScale #Scaling to Physical sigma8$/;"	v	language:Python
+ymin	/home/david/Documents/NonLinear/L-PICOLA_mem.py	/^ymin = min(MEM_2LPT[len(nproc)-1],MEM_DISP[len(nproc)-1],MEM_INIT[len(nproc)-1],MEM_DENS[len(nproc)-1],MEM_MOVE[len(nproc)-1],MEM_NBODY[len(nproc)-1])$/;"	v	language:Python
+ynew	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^        ynew=ynew2$/;"	v	language:Python
+ynew	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^ynew=np.array(ynew)$/;"	v	language:Python
+ynew	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^ynew=np.array([])$/;"	v	language:Python
+ynew2	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^        ynew2=np.append(ynew,yraw[i])$/;"	v	language:Python
+ynewerr	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^        ynewerr=ynewerr2$/;"	v	language:Python
+ynewerr	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^ynewerr=np.array(ynewerr)$/;"	v	language:Python
+ynewerr	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^ynewerr=np.array([])$/;"	v	language:Python
+ynewerr2	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^        ynewerr2=np.append(ynewerr,yrawerr[i])$/;"	v	language:Python
+ynewLower	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^ynewLower=ynew-ynewerr$/;"	v	language:Python
+ynewUpper	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^ynewUpper=ynew+ynewerr$/;"	v	language:Python
+yNlin	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^yNlin = pkNL[0]$/;"	v	language:Python
+yNlin	/home/david/Documents/NonLinear/RawPowerComp/RawPowerComp.py	/^    yNlin = np.array([float(line.split()[1]) for line in lines]) #*10**(-9.08)$/;"	v	language:Python
+yraw	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    yraw = np.array([float(line.split()[1]) for line in lines])$/;"	v	language:Python
+yrawerr	/home/david/Documents/NonLinear/CAMBLinPowerGen.py	/^    yrawerr = np.array([float(line.split()[2]) for line in lines])$/;"	v	language:Python

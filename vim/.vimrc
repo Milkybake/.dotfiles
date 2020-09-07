@@ -7,7 +7,7 @@
   source $VIMRUNTIME/defaults.vim
 
 "Spellchecks and spelling correction
-  autocmd FileType latex,tex,md setlocal spell
+  autocmd FileType latex,tex setlocal spell
   set spell spelllang=en_gb 
   inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 

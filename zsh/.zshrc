@@ -93,6 +93,9 @@ source $ZSH/oh-my-zsh.sh
    export EDITOR='mvim'
  fi
 
+#Adding Paraview to path
+export PATH=$PATH:/home/david/Paraview/bin/
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -103,3 +106,5 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+export PATH=$PATH:/home/david/.local/bin
